@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAY 2024</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="nasa.css"> <!-- Linking external CSS file -->
+</head>
+<body class="relative">
+  
+  <!-- Black Header Box with Explore Button -->
+  <header class="bg-black text-white py-8 px-12 flex items-center fixed w-full z-20">
+    <!-- Logo -->
+    <h1 class="text-4xl font-bold">EXPLORE</h1>
+    <div class="flex-grow flex justify-center">
+        <img src="logo3.jpg" alt="Logo" class="h-20"> <!-- Adjust the height as needed -->
+    </div>
+    <!-- Navigation Links -->
+    <nav>
+        <ul class="flex space-x-10">
+            <li><a href="#explore" class="text-4xl text-white hover:text-gray-400 font-bold">MAY 2024</a></li>
+            <li><a href="#mission" class="text-4xl text-white hover:text-gray-400 font-bold">Mission</a></li>
+            <li><a href="#events" class="text-4xl text-white hover:text-gray-400 font-bold">Events</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content (text and background video) -->
+  <div class="relative flex justify-left items-center h-screen">
+    <pre class="uppercase font-bold text-slate-200 text-8xl ">
+MAY 2024
+THE SOLAR STORM
+</pre> 
+
+</div>
+    <!-- Explore Video Button -->
+    
+  <!-- Background Video -->
+  <video autoplay muted loop id="video-background" class="absolute inset-0 w-full h-full object-cover z-10">
+    <source src="video2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="content text-center py-12">
+    <!-- Example explore section -->
+    <a href="https://youtu.be/lINtKSisjZE" target="_blank" class="mt-4 px-5 uppercase font-bold text-slate-950 text-4xl bg-yellow-500 hover:bg-yellow-700 py-3 px-6 rounded">Click here to watch the video
+    </a>
+    </div>
+
+    <section id="explore" class="py-8 bg-gray-800 text-white">
+      <h2 class="text-4xl font-bold">Explore More</h2>
+      <p class="mt-4 text-lg">Learn more about NASA's mission, events, and the solar storm in May 2024.</p>
+      <a href="nasa2.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6 inline-block">
+        Learn More
+      </a>
+    </section>
+  </div>
+  <script src="js.js"></script> <!-- Linking external JS file -->
+</body>
+</html>
